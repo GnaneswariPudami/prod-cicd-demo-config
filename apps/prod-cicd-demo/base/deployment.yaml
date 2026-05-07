@@ -26,7 +26,7 @@ spec:
     spec:
       containers:
       - name: app
-        image: <ECR_URL>:v1
+        image: 038686090033.dkr.ecr.eu-west-2.amazonaws.com/prod-cicd-demo:v1
         imagePullPolicy: Always
 
         env:
