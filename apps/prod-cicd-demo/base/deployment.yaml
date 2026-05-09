@@ -26,12 +26,12 @@ spec:
     spec:
       containers:
       - name: app
-        image: 038686090033.dkr.ecr.eu-west-2.amazonaws.com/prod-cicd-demo:v2
+        image: 038686090033.dkr.ecr.eu-west-2.amazonaws.com/prod-cicd-demo:370f210e1967dd6dd11073393ab2798d1b1e524a
         imagePullPolicy: Always
 
         env:
         - name: APP_VERSION
-          value: v1
+          value: "370f210"
 
         envFrom:
         - configMapRef:
