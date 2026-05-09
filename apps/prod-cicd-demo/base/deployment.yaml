@@ -26,7 +26,7 @@ spec:
     spec:
       containers:
       - name: app
-        image: 038686090033.dkr.ecr.eu-west-2.amazonaws.com/prod-cicd-demo:v1
+        image: 038686090033.dkr.ecr.eu-west-2.amazonaws.com/prod-cicd-demo:v2
         imagePullPolicy: Always
         command: ["/bin/sh"]
         args: ["-c", "while true; do echo hello; sleep 5000;done"]
